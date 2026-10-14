@@ -10,6 +10,23 @@ body {
     background-color: #f4f4f9; 
 }
 
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+p {
+    font-size: 18px;
+}
+
+
 .site-header, .site-footer {
     display: flex;
     flex-direction: row;
@@ -25,18 +42,6 @@ body {
     font-weight: bold;
     padding: 16px 0px;
 }
-
-/* .nav-links { 
-    background-color: #EAE5E5;
-    padding: 16px 0px;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 0.75em;
-    margin: 0 1.5em;
-} */
 
 .nav-links { 
     display: flex;
@@ -54,13 +59,6 @@ body {
     padding: 8px 16px;
     border-radius: 8px;
 }
-
-/* .nav-links a { 
-    color: black;
-    text-decoration: none;
-    margin: 0px 20px;
-} */
-
 
 nav a:hover { 
     background-color: #71b7f8;
@@ -131,6 +129,14 @@ nav a:hover {
 
 .btn-primary {
     background-color: black;
+}
+
+.card-img {
+    width: 30%;
+    /* width: 100%;
+    height: 10rem;
+    object-fit: cover;
+    display: block; */
 }
 
 @media (min-width: 768px) { 
